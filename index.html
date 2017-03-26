@@ -1,0 +1,24 @@
+<html>
+		<head>
+<style>
+body {
+		font-size: 1em;
+		margin: 0px;
+		margin-left: 2px;
+}
+</style>
+		</head>
+		<body>
+		</body>
+		<script>
+var em = 8;
+var char = 'v';
+var body = document.getElementsByTagName("body")[0];
+for (j = 0; j < (window.innerHeight / (2 * em)) - 1; j++) {
+		for (i = 0; i < (window.innerWidth / em) - 1; i++) {
+				body.append(char);
+		}
+		body.append("\n");
+}
+		</script>
+</html>
